@@ -1,10 +1,14 @@
-# Ignore everything
-*
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
 
-# But DO NOT ignore these:
-!main.py
-!main_test.py
-!README.md
-!tutorial.md
-!.github/workflows
-!.gitignore
+# Test output written by main_test.py
+results.md
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
